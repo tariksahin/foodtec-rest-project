@@ -37,14 +37,15 @@ After all requirements are loaded and the project is ready, start it.
 
 
 	- /list-users
-	Thanks to this endpoint, you can search with/without criterias among the added users. <br />
-	If you don't add any criteria, it returns all users. (http://localhost:8080/list-users) <br />
-	If you add criteria(s), it returns the user(s) with filtered parameter(s). You can search with all combination of criteria fields. Fields are; name, registrationDate, income <br />
-	Here's some examples how they are called; <br />
-	(http://localhost:8080/list-users?name=tarik) <br />
-	(http://localhost:8080/list-users?income=1000) <br />
-	(http://localhost:8080/list-users?name=foodtec&registrationDate=11.10.2022) <br />
-	(http://localhost:8080/list-users?name=vangelis&registrationDate=10.10.2022&income=1000) <br />
+	Thanks to this endpoint, you can search with/without criterias among the added users.
+	If you don't add any criteria, it returns all users. (http://localhost:8080/list-users)
+	If you add criteria(s), it returns the user(s) with filtered parameter(s).
+	You can search with all combination of criteria fields. Fields are; name, registrationDate, income
+	Here's some examples how they are called;
+	(http://localhost:8080/list-users?name=tarik) 
+	(http://localhost:8080/list-users?income=1000)
+	(http://localhost:8080/list-users?name=foodtec&registrationDate=11.10.2022)
+	(http://localhost:8080/list-users?name=vangelis&registrationDate=10.10.2022&income=1000)
 	
 	
 **Bonus Points**
