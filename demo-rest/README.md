@@ -49,6 +49,7 @@ After all requirements are loaded and the project is ready, start it.
 	
 	
 **Bonus Points**
+
 Project is designed to accommodate future extensions. If an extra search criteria is desired, it can be simply added. <br />
 Sensitive information data is masked in service layer. Except last 3 digits for phone number, all characters for password. <br />
 Logback logging <br />
