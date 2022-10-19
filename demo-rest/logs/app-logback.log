@@ -1,0 +1,410 @@
+2022-10-19 13:58:34,624 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 7748 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 13:58:34,625 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 13:58:34,626 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 13:58:34,957 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 13:58:35,000 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-10-19 13:58:35,271 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 13:58:35,276 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 13:58:35,277 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 13:58:35,277 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 13:58:35,339 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 13:58:35,339 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 690 ms
+2022-10-19 13:58:35,355 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 13:58:35,416 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 13:58:35,423 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 13:58:35,501 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 13:58:35,527 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 13:58:35,605 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 13:58:35,667 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 13:58:35,957 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 13:58:35,963 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 13:58:36,178 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 13:58:36,345 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 13:58:36,373 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 13:58:36,381 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 1.986 seconds (JVM running for 2.559)
+2022-10-19 13:58:54,594 INFO [http-nio-8080-exec-7] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 13:58:54,594 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 13:58:54,595 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 13:58:54,612 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); null
+2022-10-19 14:05:44,234 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:05:44,234 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:05:44,368 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:05:44,370 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:05:48,388 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 16812 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:05:48,390 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:05:48,390 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:05:48,723 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:05:48,757 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:05:49,045 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:05:49,051 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:05:49,051 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:05:49,051 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:05:49,116 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:05:49,116 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 702 ms
+2022-10-19 14:05:49,133 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:05:49,198 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:05:49,206 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:05:49,288 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:05:49,315 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:05:49,393 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:05:49,457 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:05:49,760 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:05:49,766 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:05:49,966 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:05:50,133 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:05:50,162 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:05:50,169 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.017 seconds (JVM running for 2.568)
+2022-10-19 14:06:22,269 INFO [http-nio-8080-exec-7] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:06:22,270 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:06:22,270 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-10-19 14:12:31,217 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:12:31,217 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:12:31,345 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:12:31,347 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:12:35,437 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 5164 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:12:35,438 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:12:35,439 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:12:35,790 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:12:35,821 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:12:36,124 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:12:36,130 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:12:36,130 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:12:36,130 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:12:36,196 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:12:36,197 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 732 ms
+2022-10-19 14:12:36,214 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:12:36,279 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:12:36,286 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:12:36,368 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:12:36,396 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:12:36,473 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:12:36,536 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:12:36,846 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:12:36,852 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:12:37,069 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:12:37,233 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:12:37,264 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:12:37,272 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.083 seconds (JVM running for 2.657)
+2022-10-19 14:12:50,195 INFO [http-nio-8080-exec-7] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:12:50,195 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:12:50,196 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-10-19 14:12:50,214 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); nullnullnull
+2022-10-19 14:13:38,488 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:13:38,489 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:13:38,615 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:13:38,617 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:13:42,556 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 17024 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:13:42,558 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:13:42,559 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:13:42,908 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:13:42,939 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:13:43,235 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:13:43,241 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:13:43,241 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:13:43,241 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:13:43,307 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:13:43,308 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 724 ms
+2022-10-19 14:13:43,325 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:13:43,393 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:13:43,401 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:13:43,486 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:13:43,516 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:13:43,596 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:13:43,661 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:13:43,988 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:13:43,994 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:13:44,209 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:13:44,384 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:13:44,414 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:13:44,423 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.119 seconds (JVM running for 2.681)
+2022-10-19 14:13:54,846 INFO [http-nio-8080-exec-7] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:13:54,847 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:13:54,847 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-10-19 14:13:54,866 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:15:12,628 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:15:16,520 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:15:16,520 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:15:16,646 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:15:16,648 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:16:08,039 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 10464 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:16:08,041 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:16:08,041 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:16:08,388 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:16:08,418 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:16:08,711 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:16:08,716 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:16:08,717 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:16:08,717 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:16:08,783 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:16:08,783 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 716 ms
+2022-10-19 14:16:08,800 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:16:08,865 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:16:08,873 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:16:08,957 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:16:08,987 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:16:09,067 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:16:09,131 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:16:09,434 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:16:09,440 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:16:09,645 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:16:09,808 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:16:09,838 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:16:09,845 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.049 seconds (JVM running for 2.618)
+2022-10-19 14:16:21,767 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:16:21,768 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:16:21,769 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 14:16:21,786 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:16:21,861 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 14:22:52,489 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:22:52,490 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:22:52,613 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:22:52,615 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:22:56,539 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 8168 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:22:56,541 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:22:56,542 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:22:56,885 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:22:56,920 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:22:57,200 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:22:57,205 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:22:57,206 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:22:57,206 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:22:57,270 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:22:57,271 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 704 ms
+2022-10-19 14:22:57,287 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:22:57,352 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:22:57,359 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:22:57,443 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:22:57,471 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:22:57,550 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:22:57,612 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:22:57,913 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:22:57,919 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:22:58,118 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:22:58,275 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:22:58,304 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:22:58,312 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.02 seconds (JVM running for 2.577)
+2022-10-19 14:23:25,548 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:23:25,549 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:23:25,550 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 14:23:25,568 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:23:25,643 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 14:23:34,545 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;null
+2022-10-19 14:24:47,762 INFO [http-nio-8080-exec-8] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;19000
+2022-10-19 14:24:52,767 INFO [http-nio-8080-exec-10] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;20000
+2022-10-19 14:24:56,390 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;19000
+2022-10-19 14:28:25,146 WARN [http-nio-8080-exec-4] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2022-10-10 10:10:10.0'; nested exception is java.lang.IllegalArgumentException]
+2022-10-19 14:28:40,051 WARN [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2022-10-10'; nested exception is java.lang.IllegalArgumentException]
+2022-10-19 14:28:46,193 INFO [http-nio-8080-exec-3] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;19000
+2022-10-19 14:31:52,112 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:31:52,113 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:31:52,239 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:31:52,242 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:31:56,798 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 6032 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:31:56,800 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:31:56,801 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:31:57,141 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:31:57,173 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:31:57,459 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:31:57,465 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:31:57,465 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:31:57,465 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:31:57,530 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:31:57,530 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 704 ms
+2022-10-19 14:31:57,547 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:31:57,617 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:31:57,624 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:31:57,711 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:31:57,744 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:31:57,823 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:31:57,888 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:31:58,192 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:31:58,204 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:31:58,409 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:31:58,570 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:31:58,598 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:31:58,606 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.044 seconds (JVM running for 2.594)
+2022-10-19 14:32:21,890 INFO [http-nio-8080-exec-3] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:32:21,890 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:32:21,891 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 14:32:21,908 INFO [http-nio-8080-exec-3] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:32:21,981 INFO [http-nio-8080-exec-3] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 14:32:31,045 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;null
+2022-10-19 14:33:00,973 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Mon Oct 10 00:00:00 TRT 2022 income;null
+2022-10-19 14:33:31,032 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:33:31,033 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00), User(id=2, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-11 10:10:10.0, income=20000.00)]
+2022-10-19 14:33:56,798 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Mon Oct 10 00:00:00 TRT 2022 income;null
+2022-10-19 14:34:05,305 INFO [http-nio-8080-exec-6] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;null
+2022-10-19 14:34:22,420 INFO [http-nio-8080-exec-8] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;19999
+2022-10-19 14:34:25,123 INFO [http-nio-8080-exec-10] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;30000
+2022-10-19 14:34:27,976 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;15000
+2022-10-19 14:35:37,824 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:35:37,825 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:35:37,947 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:35:37,949 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:35:43,275 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 5640 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:35:43,277 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:35:43,277 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:35:43,619 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:35:43,650 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:35:43,921 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:35:43,926 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:35:43,927 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:35:43,927 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:35:43,990 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:35:43,990 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 687 ms
+2022-10-19 14:35:44,006 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:35:44,071 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:35:44,078 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:35:44,163 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:35:44,192 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:35:44,273 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:35:44,335 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:35:44,633 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:35:44,639 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:35:44,845 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:35:45,016 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:35:45,048 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:35:45,056 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.024 seconds (JVM running for 2.577)
+2022-10-19 14:36:11,946 INFO [http-nio-8080-exec-4] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:36:11,947 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:36:11,948 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 14:36:11,965 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:36:12,041 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-11 10:10:10.0, income=20000.00), User(id=2, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 14:36:20,967 WARN [http-nio-8080-exec-6] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'date' for method parameter type Date is not present]
+2022-10-19 14:36:26,058 WARN [http-nio-8080-exec-9] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'date' for method parameter type Date is not present]
+2022-10-19 14:36:46,008 WARN [http-nio-8080-exec-5] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'date' for method parameter type Date is not present]
+2022-10-19 14:37:53,317 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:37:53,317 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 14:37:53,446 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 14:37:53,448 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 14:37:57,027 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 1576 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 14:37:57,029 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 14:37:57,030 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 14:37:57,382 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 14:37:57,414 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-10-19 14:37:57,704 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 14:37:57,709 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:37:57,710 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 14:37:57,710 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 14:37:57,777 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 14:37:57,777 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 721 ms
+2022-10-19 14:37:57,794 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 14:37:57,862 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 14:37:57,869 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 14:37:57,957 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 14:37:57,986 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 14:37:58,063 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 14:37:58,127 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 14:37:58,438 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 14:37:58,444 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 14:37:58,664 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 14:37:58,827 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 14:37:58,857 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 14:37:58,865 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 2.079 seconds (JVM running for 2.637)
+2022-10-19 14:38:05,594 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 14:38:05,595 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 14:38:05,595 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2022-10-19 14:38:05,614 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:38:05,693 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Users; []
+2022-10-19 14:38:16,568 INFO [http-nio-8080-exec-8] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 14:38:16,578 INFO [http-nio-8080-exec-8] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-11 10:10:10.0, income=20000.00)]
+2022-10-19 14:38:19,069 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;15000
+2022-10-19 14:38:39,276 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;15000
+2022-10-19 14:38:45,298 WARN [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.util.Date] for value '11010.2022'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [11010.2022]]
+2022-10-19 14:38:49,990 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;15000
+2022-10-19 14:38:52,695 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Wed Oct 12 00:00:00 TRT 2022 income;15000
+2022-10-19 15:29:05,576 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m7s356ms274µs300ns).
+2022-10-19 17:16:08,896 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m3s167ms675µs).
+2022-10-19 17:30:52,188 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 17:30:52,192 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-11 10:10:10.0, income=20000.00)]
+2022-10-19 18:10:42,887 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m3s343ms574µs500ns).
+2022-10-19 18:35:54,996 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m41s943ms940µs900ns).
+2022-10-19 19:08:48,036 WARN [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m52s883ms522µs600ns).
+2022-10-19 19:23:08,535 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 19:23:08,539 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-11 10:10:10.0, income=20000.00)]
+2022-10-19 19:23:29,233 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;null
+2022-10-19 19:24:24,127 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:24:24,131 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 19:24:24,150 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 19:24:24,157 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 19:24:41,483 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 13484 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 19:24:41,486 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 19:24:41,487 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 19:24:42,452 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 19:24:42,526 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-10-19 19:24:43,321 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 19:24:43,336 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 19:24:43,338 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 19:24:43,338 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 19:24:43,499 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 19:24:43,499 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1948 ms
+2022-10-19 19:24:43,537 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 19:24:43,746 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 19:24:43,767 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 19:24:43,975 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 19:24:44,074 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 19:24:44,330 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 19:24:44,503 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 19:24:45,390 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 19:24:45,407 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:24:45,946 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 19:24:46,447 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 19:24:46,552 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 19:24:46,611 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 5.773 seconds (JVM running for 7.496)
+2022-10-19 19:25:24,545 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 19:25:24,547 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 19:25:24,549 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 19:25:24,593 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 19:25:24,805 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 19:25:46,077 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 19:25:46,081 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Users; [User(id=1, name=tarik, email=tariksahin01@gmail.com, phone=*******4849, password=*****, registrationDate=2022-10-10 10:10:10.0, income=20000.00)]
+2022-10-19 19:25:50,911 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;null
+2022-10-19 19:26:10,975 INFO [http-nio-8080-exec-8] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;10000
+2022-10-19 19:26:37,259 INFO [http-nio-8080-exec-10] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;null income;21000
+2022-10-19 19:26:54,076 INFO [http-nio-8080-exec-1] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Thu Nov 19 00:00:00 TRT 2020 income;21000
+2022-10-19 19:27:04,540 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Mon Oct 10 00:00:00 TRT 2022 income;21000
+2022-10-19 19:27:09,581 INFO [http-nio-8080-exec-4] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Sun Oct 09 00:00:00 TRT 2022 income;21000
+2022-10-19 19:27:17,226 INFO [http-nio-8080-exec-5] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Sun Oct 09 00:00:00 TRT 2022 income;19000
+2022-10-19 19:27:22,759 INFO [http-nio-8080-exec-3] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Mon Oct 10 00:00:00 TRT 2022 income;19000
+2022-10-19 19:27:25,966 INFO [http-nio-8080-exec-6] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;19000
+2022-10-19 19:43:41,374 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:43:41,374 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 19:43:41,385 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 19:43:41,404 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-10-19 19:43:49,219 INFO [main] org.springframework.boot.StartupInfoLogger: Starting DemoRestApplication using Java 11.0.16.1 on DESKTOP-84SC6H4 with PID 9936 (C:\Users\tarik\Downloads\demo-rest\target\classes started by tarik in C:\Users\tarik\Downloads\demo-rest)
+2022-10-19 19:43:49,223 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-19 19:43:49,225 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-19 19:43:50,092 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-19 19:43:50,161 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-10-19 19:43:50,811 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-19 19:43:50,826 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-19 19:43:50,827 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2022-10-19 19:43:50,827 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-19 19:43:50,984 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2022-10-19 19:43:50,984 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1697 ms
+2022-10-19 19:43:51,030 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2022-10-19 19:43:51,207 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2022-10-19 19:43:51,225 INFO [main] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration: H2 console available at '/DB'. Database available at 'jdbc:h2:mem:userdb'
+2022-10-19 19:43:51,447 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-19 19:43:51,529 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-19 19:43:51,755 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-19 19:43:51,920 INFO [main] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-19 19:43:52,719 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-19 19:43:52,733 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:43:53,290 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-19 19:43:53,693 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2022-10-19 19:43:53,764 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-19 19:43:53,781 INFO [main] org.springframework.boot.StartupInfoLogger: Started DemoRestApplication in 5.167 seconds (JVM running for 6.592)
+2022-10-19 19:44:15,095 INFO [http-nio-8080-exec-7] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-19 19:44:15,096 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-19 19:44:15,098 INFO [http-nio-8080-exec-7] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2022-10-19 19:44:15,141 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; null date;null income;null
+2022-10-19 19:44:15,144 INFO [http-nio-8080-exec-7] com.foodtec.demorest.service.UserServiceImpl: All search criterias are null , returning all users
+2022-10-19 19:44:21,207 INFO [http-nio-8080-exec-2] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Tue Oct 11 00:00:00 TRT 2022 income;19000
+2022-10-19 19:44:21,208 INFO [http-nio-8080-exec-2] com.foodtec.demorest.service.UserServiceImpl: All search criterias are null , returning all users
+2022-10-19 19:44:29,194 INFO [http-nio-8080-exec-9] com.foodtec.demorest.service.UserServiceImpl: Listing users for input(s); name; tarik date;Mon Oct 10 00:00:00 TRT 2022 income;19000
+2022-10-19 19:44:29,195 INFO [http-nio-8080-exec-9] com.foodtec.demorest.service.UserServiceImpl: All search criterias are null , returning all users
+2022-10-19 19:54:48,708 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-19 19:54:48,709 INFO [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-19 19:54:48,718 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-10-19 19:54:48,723 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
